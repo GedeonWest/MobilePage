@@ -1,0 +1,80 @@
+body {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Inter", "Roboto", "Helvetica",
+    "Arial", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 24px 0;
+}
+
+.app-container {
+  padding: 0 16px;
+}
+
+.value-text {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+.form-card {
+  margin-top: 16px;
+  padding: 10px 14px;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.input-card {
+  padding-right: 0;
+}
+
+.checkbox-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2px;
+  color: #000000;
+  background: #f5c400;
+  border-radius: 4px;
+}
+
+.MuiCheckbox-root .MuiSvgIcon-root {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 400px) {
+  .app-shell {
+    padding: 20px 0;
+  }
+  .app-container {
+    padding: 0 12px;
+  }
+  .form-card {
+    padding: 9px 12px;
+  }
+  .value-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .app-shell {
+    padding: 16px 0;
+  }
+  .app-container {
+    padding: 0 10px;
+  }
+  .form-card {
+    padding: 8px 10px;
+  }
+  .value-text {
+    font-size: 0.8rem;
+  }
+}
